@@ -6,21 +6,21 @@ const ProblemSolution = () => {
     const rightArrow = '>';
     const problemSolutionsData = [
         {
-            heading: 'Problem', img: '/public/problem.svg', details: `Managing legal documents can
+            heading: 'Problem', img: '/problem.svg', details: `Managing legal documents can
              be complex, time-consuming,
               and error-prone. \n
                Outdated methods and manual
   processes put your business at
                 risk`},
         {
-            heading: 'Solution', img: '/public/solution.svg', details: `Ai GoverningDocs offers a cutting-edge solution to manage, generate, and automate legal documents with ease. \n
+            heading: 'Solution', img: '/solution.svg', details: `Ai GoverningDocs offers a cutting-edge solution to manage, generate, and automate legal documents with ease. \n
              Our  AI-driven platform ensures compliance, reduces errors, and saves time.`
         },
         {
-            heading: 'Key Features', img: '/public/key-features.svg', details: `Automatically generate legal documents tailored to your specific needs.`
+            heading: 'Key Features', img: '/key-features.svg', details: `Automatically generate legal documents tailored to your specific needs.`
         },
         {
-            heading: 'Compliance Management', img: '/public/compliance-management.svg', details: `Ensure all your documents meet the latest regulatory standards.`
+            heading: 'Compliance Management', img: '/compliance-management.svg', details: `Ensure all your documents meet the latest regulatory standards.`
         },
     ]
     return (

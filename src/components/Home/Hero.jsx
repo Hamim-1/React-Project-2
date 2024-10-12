@@ -15,7 +15,7 @@ const Hero = () => {
                     <button className="custom-button w-fit gradient-bg">Get Started Today</button>
                 </div>
                 <div>
-                    <img src="/public/hero-side.svg" alt="" className='w-[90%] mx-auto' />
+                    <img src="/hero-side.svg" alt="" className='w-[90%] mx-auto' />
                 </div>
             </div>
 

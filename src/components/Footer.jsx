@@ -8,10 +8,10 @@ const Footer = () => {
                     AI GoverningDocs
                 </h1>
                 <div className='flex space-x-2'>
-                    <img src="/public/fb.png" alt="" />
-                    <img src="/public/instagram.png" alt="" />
-                    <img src="/public/in.png" alt="" />
-                    <img src="/public/x.png" alt="" />
+                    <img src="/fb.png" alt="" />
+                    <img src="/instagram.png" alt="" />
+                    <img src="/in.png" alt="" />
+                    <img src="/x.png" alt="" />
                 </div>
             </div>
 

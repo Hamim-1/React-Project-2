@@ -11,7 +11,7 @@ const Partners = () => {
                     {
                         allPartners.map(partner => {
                             return <div className='border border-gray-300 bg-white rounded-lg w-64 h-24 flex justify-center items-center'>
-                                <img src={`/public/partners-${partner}.png`} alt="" />
+                                <img src={`/partners-${partner}.png`} alt="" />
                             </div>
                         })
                     }

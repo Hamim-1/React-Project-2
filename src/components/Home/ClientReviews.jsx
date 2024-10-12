@@ -4,9 +4,9 @@ import ReviewStar from './ReviewStar';
 
 const ClientReviews = () => {
     const clientReviews = [
-        { name: 'David', img: '/public/david.png', shortReview: 'Highly Recommend!', fullReview: 'The service was user-friendly and met all my expectations.' },
-        { name: 'John Smith', img: '/public/john-smith.png', shortReview: 'It Was An Amazing Experience!', fullReview: 'The AI features saved us countless hours and ensured our compliance was spot on.' },
-        { name: 'Ronald Richards', img: '/public/ronald-richards.png', shortReview: 'Outstanding Support!', fullReview: 'The customer support team was quick to resolve my issues.' },
+        { name: 'David', img: '/david.png', shortReview: 'Highly Recommend!', fullReview: 'The service was user-friendly and met all my expectations.' },
+        { name: 'John Smith', img: '/john-smith.png', shortReview: 'It Was An Amazing Experience!', fullReview: 'The AI features saved us countless hours and ensured our compliance was spot on.' },
+        { name: 'Ronald Richards', img: '/ronald-richards.png', shortReview: 'Outstanding Support!', fullReview: 'The customer support team was quick to resolve my issues.' },
     ]
     const [activeReview, setActiveReview] = useState(1);
     return (
