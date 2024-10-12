@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+    @apply w-full max-w-screen-xl p-2 md:p-5 mx-auto;
+}
+
+.custom-button {
+    @apply text-white rounded-full font-semibold px-5 py-3 text-xs sm:text-base;
+}
+
+.gradient-bg {
+    @apply bg-gradient-to-t from-[#059dbe] to-[#00d2ff]
+}
+
+@layer utilities {
+    .box-shadow {
+        box-shadow: 0px 10px 30px 0px #02B6DC26;
+    }
+}
