@@ -12,8 +12,8 @@ const Navbar = () => {
         }
     }, [isNavbarOpened])
     return (
-        <>
-            <div className='container bg-white rounded-full flex justify-between items-center my-5 box-shadow'>
+        <div className='p-5'>
+            <div className='container bg-white rounded-full flex justify-between items-center box-shadow'>
                 <h1 className="text-xl sm:text-2xl lg:text-3xl xl:text-4xl font-bold">
                     GoverningDocs
                 </h1>
@@ -55,7 +55,7 @@ const Navbar = () => {
                 <p className='cursor-pointer hover:text-primary hover:underline'>Testimonials</p>
                 <p className='cursor-pointer hover:text-primary hover:underline'>FAQs</p>
             </div>
-        </>
+        </div>
     );
 };
 

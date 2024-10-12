@@ -9,7 +9,7 @@ import Footer from './components/Footer';
 function App() {
 
   return (
-    <div className='px-2'>
+    <main className='px-2 bg-[url(/hero-bg.svg)] min-h-svh bg-no-repeat bg-top'>
       <Navbar />
       <Hero />
       <ProblemSolution />
@@ -18,7 +18,7 @@ function App() {
       <Faq />
       <Note />
       <Footer />
-    </div>
+    </main>
   )
 }
 

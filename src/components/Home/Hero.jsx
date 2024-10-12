@@ -19,7 +19,7 @@ const Hero = () => {
                 </div>
             </div>
 
-            <div style={{ backgroundImage: `url(hero-bg.svg)` }} className='w-full h-full absolute top-0 left-0 -z-10'></div>
+            {/* <div style={{ backgroundImage: `url(hero-bg.svg)` }} className='w-full h-full absolute top-0 left-0 -z-10'></div> */}
         </>
     );
 };
